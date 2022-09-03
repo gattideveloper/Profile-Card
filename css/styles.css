@@ -1,0 +1,174 @@
+/*############################################ Import ############################################*/
+/* Fuentes de letras */
+@import url("includes/fonts.css");
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+	display: flex !important;
+	min-height: 650px !important;
+	background-color: #000 !important;
+  align-items: center !important;
+}
+
+hr{
+	margin-top: 5px !important;
+	margin-bottom: 5px !important;
+}
+
+#card_body{
+	display: block;
+	width: 30%;
+	height: auto;
+	margin: 0px auto;
+	border-top-left-radius: 47px;
+	border-top-right-radius: 150px;
+	border-bottom-left-radius: 70px;
+	border-bottom-right-radius: 24px;
+	border: 5px solid #272727;
+	background-image: url('../materiales/galeria/pattern.png');
+}
+
+/*----> Card Header <----*/
+#card_header{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 180px;
+	margin: 0px auto;
+	background-color: #272727;
+	border-top-left-radius: 46px;
+	border-top-right-radius: 158px;
+	border-bottom-left-radius: 140px;
+	border-bottom-right-radius: 45px;
+	border-bottom: 5px solid #272727;
+}
+
+
+/*--> Fondo <--*/
+.imgfondo{
+	width: 100%;
+  height: 100%;
+  border-top-left-radius: 47px;
+	border-top-right-radius: 160px;
+	border-bottom-left-radius: 140px;
+	border-bottom-right-radius: 45px;
+}
+
+/*---> Foto <---*/
+#card_header .foto{
+	position: relative;
+	width: 140px;
+	height: 140px;
+	top: -155px;
+	margin: 0px auto;
+}
+
+.imgRedonda {
+	position: relative;
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+}
+
+.imgRedonda img {
+   width: 100%;
+  height: auto;
+}
+
+/*---> Descripcion <---*/
+#descripcion{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#descripcion span{
+		display: block;
+}
+
+.datos{
+	display: block;
+}
+
+#descripcion .titulo{
+	margin-left: 10px;
+}
+
+#skills .programs{
+	display: inline-block;
+	width: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-top: 3px ridge #ccc;
+	border-left: 3px ridge #ccc;
+	border-right: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+}
+
+#skills .programs:hover{
+	cursor: pointer;
+	border-top: 3px solid #ccc;
+	border-left: 3px solid #ccc;
+	border-right: 2px ridge #ccc;
+	border-bottom: 2px ridge #ccc;
+}
+
+/*---> Redes <----*/
+#card_body .redes{
+	display: block;
+	width: 100%;
+	height: 95px;
+	margin-top: 10px;
+	border-top-left-radius: 65px;
+	border-top-right-radius: 180px;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 40px;
+	border-top: 5px solid #272727;
+	background-color: rgba(39, 39, 39, 0.8);
+	text-align: center;
+}
+
+/********************************************************************/
+    /* ===================== Icon ===================== */
+/********************************************************************/
+#icon{
+	display: inline-block;
+  width: 70px;
+  height: 60px;
+  margin-top: 12px;
+  margin-right: 6px;
+}
+
+#icon .intercambio1 {
+  position: relative;
+}
+
+#icon .intercambio1 .intercambio2 {
+  position: absolute;  
+  top: 0;  
+  left: 0;
+  opacity: 0;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+#icon .intercambio1:hover .intercambio2 {
+  opacity: 1;
+}
+
+#icon img{
+    float: left;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}

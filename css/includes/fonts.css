@@ -1,0 +1,74 @@
+/*-----> Texto <-----*/
+@font-face{
+    font-family: "PetronaBold";
+    src:url(../../materiales/fonts/Petrona-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaBoldItalic";
+    src:url(../../materiales/fonts/Petrona-BoldItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaLight";
+    src:url(../../materiales/fonts/Petrona-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaLightItalic";
+    src:url(../../materiales/fonts/Petrona-LightItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaThin";
+    src:url(../../materiales/fonts/Petrona-ThinItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: "PetronaThinItalic";
+    src:url(../../materiales/fonts/Petrona-ThinItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*##############################################################*/
+        /*#################### FONTS ####################*/
+/*##############################################################*/
+/*---> Descripcion <---*/
+.nombre{
+    font-family: "PetronaBold";
+    font-size: 25px;
+    text-align: center;
+}
+
+.rubro{
+    font-family: "PetronaBoldItalic";
+    text-align: center;
+    font-size: 20px;
+}
+
+.datos{
+    text-align: center;
+}
+
+#descripcion .titulo{
+    font-family: "PetronaLight";
+    font-weight: bolder;
+    text-align: left;
+    font-size: 19px;
+}
+
+#descripcion .texto{
+    font-family: "PetronaLightItalic";
+    font-size: 19px;
+}

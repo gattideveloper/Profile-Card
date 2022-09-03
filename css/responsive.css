@@ -1,0 +1,11 @@
+/*Responsive para escritorio y tablet*/
+@media (max-width:480px){
+
+	body{
+		background-color: darkred !important;
+	}
+
+	#card_body{
+		width: 75% !important;
+	}
+}
