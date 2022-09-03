@@ -72,3 +72,8 @@
     font-family: "PetronaLightItalic";
     font-size: 19px;
 }
+
+/*Responsive para escritorio y tablet*/
+@media (max-width:480px){
+
+}

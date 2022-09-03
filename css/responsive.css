@@ -8,4 +8,18 @@
 	#card_body{
 		width: 75% !important;
 	}
+
+
+
+	/********************************************************************/
+    /* ===================== Icon ===================== */
+	/********************************************************************/
+	#icon{
+		display: inline-block;
+  		width: 50px !important;
+  		height: 55px !important;
+  		margin-top: 17px !important;
+  		margin-right: 3px !important;
+  		margin-left: 3px !important;
+	}
 }
