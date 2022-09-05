@@ -1,10 +1,6 @@
 /*Responsive para escritorio y tablet*/
 @media (max-width:480px){
 
-	body{
-		background-color: darkred !important;
-	}
-
 	#card_body{
 		width: 75% !important;
 	}
@@ -12,12 +8,12 @@
 
 	/*==================> Card Header */
 	#card_header{
-		width: 350px;
+		width: 284px;
 	}
 
 	/*==================> Redes */
 	#card_body .redes{
-		width: 350px;
+		width: 284px;
 	}
 
 
