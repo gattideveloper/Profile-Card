@@ -1,6 +1,12 @@
 /*Responsive para escritorio y tablet*/
 @media (max-width:480px){
 
+	body{
+
+	min-height: 750px;
+
+	}
+
 	#card_body{
 		width: 90% !important;
 	}
