@@ -1,23 +1,27 @@
 /*############################################ Import ############################################*/
 /* Fuentes de letras */
 @import url("includes/fonts.css");
+
 *{
   margin: 0px;
   padding: 0px;
 }
 
 body{
-	display: flex !important;
-	min-height: 650px !important;
-	background-color: #000 !important;
-  align-items: center !important;
+	display: flex;
+	min-height: 650px;
+	background-color: #000;
+  align-items: center;
 }
 
 hr{
-	margin-top: 5px !important;
-	margin-bottom: 5px !important;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
+/********************************************************************/
+    /* ===================== Card Bady ===================== */
+/********************************************************************/
 #card_body{
 	display: block;
 	width: 30%;
@@ -31,38 +35,29 @@ hr{
 	background-image: url('../materiales/galeria/pattern.png');
 }
 
-/*----> Card Header <----*/
+/*==================> Card Header */
 #card_header{
 	display: block;
-	position: relative;
-	width: 100%;
+	width: 400px;
 	height: 180px;
-	margin: 0px auto;
-	background-color: #272727;
-	border-top-left-radius: 46px;
-	border-top-right-radius: 158px;
-	border-bottom-left-radius: 140px;
-	border-bottom-right-radius: 45px;
-	border-bottom: 5px solid #272727;
 }
 
-
-/*--> Fondo <--*/
 .imgfondo{
 	width: 100%;
   height: 100%;
-  border-top-left-radius: 47px;
-	border-top-right-radius: 160px;
-	border-bottom-left-radius: 140px;
-	border-bottom-right-radius: 45px;
+  border-top-left-radius: 41px;
+  border-top-right-radius: 145px;
+  border-bottom-left-radius: 140px;
+  border-bottom-right-radius: 45px;
+	border: 5px solid #e9e9e9;
 }
 
-/*---> Foto <---*/
+
 #card_header .foto{
 	position: relative;
 	width: 140px;
 	height: 140px;
-	top: -155px;
+	top: -172px;
 	margin: 0px auto;
 }
 
@@ -80,7 +75,7 @@ hr{
   height: auto;
 }
 
-/*---> Descripcion <---*/
+/*==================> Descripcion */
 #descripcion{
 	width: 100%;
 	height: auto;
@@ -89,29 +84,63 @@ hr{
 }
 
 #descripcion span{
-		display: block;
-}
-
-.datos{
 	display: block;
 }
 
-#descripcion .titulo{
+/*==================> Article */
+article{
+	display: block;
+}
+
+article h2{
+	margin-bottom: 5px;
 	margin-left: 10px;
 }
 
+#icons{
+	display: block;
+	width: 100%;
+}
+
+
+#icons .icons-imagen{
+	width: 45px;
+	height: 45px;
+}
+
+
+#icons .texto{
+	display: block;
+}
+
+#icons .txt{
+	margin-bottom: 10px;
+}
+
+/*==================> Skills */
+#skills h2{
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+
 #skills .programs{
-	display: inline-block;
-	width: auto;
+	display: block;
+}
+
+#skills .programs span{
 	padding-left: 5px;
 	padding-right: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
 	border-top: 3px ridge #ccc;
 	border-left: 3px ridge #ccc;
 	border-right: 2px solid #ccc;
 	border-bottom: 2px solid #ccc;
+
 }
 
-#skills .programs:hover{
+#skills .programs span:hover{
 	cursor: pointer;
 	border-top: 3px solid #ccc;
 	border-left: 3px solid #ccc;
@@ -119,24 +148,21 @@ hr{
 	border-bottom: 2px ridge #ccc;
 }
 
-/*---> Redes <----*/
+/*==================> Redes */
 #card_body .redes{
 	display: block;
-	width: 100%;
+	width: 400px;
 	height: 95px;
 	margin-top: 10px;
-	border-top-left-radius: 65px;
-	border-top-right-radius: 180px;
-	border-bottom-left-radius: 150px;
-	border-bottom-right-radius: 40px;
-	border-top: 5px solid #272727;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 71px;
+	border-bottom-right-radius: 18px;
+	border: 5px solid #e9e9e9;
 	background-color: rgba(39, 39, 39, 0.8);
 	text-align: center;
 }
 
-/********************************************************************/
-    /* ===================== Icon ===================== */
-/********************************************************************/
 #icon{
 	display: inline-block;
   width: 70px;

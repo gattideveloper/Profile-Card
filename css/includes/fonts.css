@@ -27,53 +27,48 @@
     font-style: normal;
 }
 
-@font-face{
-    font-family: "PetronaThin";
-    src:url(../../materiales/fonts/Petrona-ThinItalic.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face{
-    font-family: "PetronaThinItalic";
-    src:url(../../materiales/fonts/Petrona-ThinItalic.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
-/*##############################################################*/
-        /*#################### FONTS ####################*/
-/*##############################################################*/
-/*---> Descripcion <---*/
-.nombre{
-    font-family: "PetronaBold";
+/*####################### FONTS #######################*/
+#descripcion span{
+    font-family: 'PetronaBold';
     font-size: 25px;
     text-align: center;
+    letter-spacing: 2px;
 }
 
-.rubro{
-    font-family: "PetronaBoldItalic";
-    text-align: center;
-    font-size: 20px;
-}
-
-.datos{
-    text-align: center;
-}
-
-#descripcion .titulo{
-    font-family: "PetronaLight";
-    font-weight: bolder;
+/*==================> Article */
+article h2{
+    font-family: 'PetronaBoldItalic';
+    font-size: 22px;
     text-align: left;
-    font-size: 19px;
+    letter-spacing: 1px;
 }
 
-#descripcion .texto{
-    font-family: "PetronaLightItalic";
-    font-size: 19px;
+#icons{
+    text-align: center;
 }
 
-/*Responsive para escritorio y tablet*/
-@media (max-width:480px){
 
+#icons .texto{
+    font-family: 'PetronaLight';
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/*==================> Skills */
+#skills h2{
+    font-family: 'PetronaBoldItalic';
+    font-size: 22px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+
+#skills .programs{
+    text-align: center;
+}
+
+#skills .programs span{
+    font-size: 19px;
+    font-family: 'PetronaLightItalic';
+    letter-spacing: 2px;
 }
