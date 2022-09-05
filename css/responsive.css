@@ -20,6 +20,37 @@
 	/*==================> Redes */
 	#card_body .redes{
 		width: 341px;
+		height: 75px;
+		border: 5px solid #e9e9e9; /*#e9e9e9*/
+border-bottom-left-radius: 95px;
+border-bottom-right-radius: 26px;
+
+	}
+
+	/*
+	
+#card_body .redes{
+	display: block;
+	width: 400px;
+	height: 95px;
+	margin-top: 10px;
+	
+	border-top-right-radius: 100px;
+	
+	border-bottom-right-radius: 18px;
+	border: 5px solid #e9e9e9; 
+	background-color: rgba(39, 39, 39, 0.8);
+	text-align: center;
+}
+
+
+	*/
+	#icon .images{
+		display: none; 
+	}
+
+	#icon .intercambio1 .intercambio2 {
+  		opacity: 1;
 	}
 
 
@@ -30,7 +61,7 @@
 		display: inline-block;
   		width: 50px !important;
   		height: 55px !important;
-  		margin-top: 17px !important;
+  		margin-top: 13px !important;
   		margin-right: 3px !important;
   		margin-left: 3px !important;
 	}
