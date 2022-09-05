@@ -158,7 +158,7 @@ article h2{
 	border-top-right-radius: 100px;
 	border-bottom-left-radius: 71px;
 	border-bottom-right-radius: 18px;
-	border: 5px solid transparent;
+	border: 5px solid red;
 	background-color: rgba(39, 39, 39, 0.8);
 	text-align: center;
 }
