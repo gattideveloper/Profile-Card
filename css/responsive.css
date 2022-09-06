@@ -1,5 +1,5 @@
 /*Responsive para escritorio y tablet*/
-@media (max-width:375px){
+@media screen and (max-width:375px){
 
 	body{
 
