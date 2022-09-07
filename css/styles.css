@@ -8,25 +8,18 @@
 }
 
 body{
-	display: flex;
-	min-height: 650px;
 	background-color: #000;
-  align-items: center;
 }
 
-hr{
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-/********************************************************************/
-    /* ===================== Card Bady ===================== */
-/********************************************************************/
-#card_body{
-	display: block;
+#container{
 	width: 30%;
-	height: auto;
-	margin: 0px auto;
+  height: auto;
+  margin: 0px auto;
+  border: 1px solid rgba(225,225,226, 0.8);
+  box-shadow: 0px 0px 10px #585656;
+  margin-top: 40px;
+  margin-bottom: 40px;
+	min-height: 600px;
 	border-top-left-radius: 47px;
 	border-top-right-radius: 150px;
 	border-bottom-left-radius: 70px;
@@ -35,37 +28,37 @@ hr{
 	background-image: url('../materiales/galeria/pattern.png');
 }
 
-/*==================> Card Header */
-#card_header{
-	display: block;
-	width: 400px;
-	height: 180px;
+/*------------------> Container - Head -------->*/
+#container-head{
+		display: block;
+    height: 180px;
+    border: 5px solid transparent;
+		border-top-left-radius: 41px;
+  	border-top-right-radius: 145px;
+  	border-bottom-left-radius: 140px;
+  	border-bottom-right-radius: 45px;
 }
 
 .imgfondo{
 	width: 100%;
-  height: 100%;
-  border-top-left-radius: 41px;
-  border-top-right-radius: 145px;
-  border-bottom-left-radius: 140px;
+	height: 180px;
+	border-top-left-radius: 36px;
+  border-top-right-radius: 151px;
+  border-bottom-left-radius: 147px;
   border-bottom-right-radius: 45px;
-	border: 5px solid transparent; /*#e9e9e9*/
-}
+} 
 
-
-#card_header .foto{
-	position: relative;
-	width: 140px;
-	height: 140px;
-	top: -172px;
+.box2{
+	width: 155px;
+	height: 155px;
 	margin: 0px auto;
 }
 
 .imgRedonda {
 	position: relative;
-  width: 140px;
-  height: 140px;
-  overflow: hidden;
+	width: 155px;
+	height: 155px;
+	top: -172px;
   border-radius: 50%;
   border: 3px solid #ccc;
 }
@@ -75,106 +68,95 @@ hr{
   height: auto;
 }
 
-/*==================> Descripcion */
-#descripcion{
+/*------------------> Container - Body -------->*/
+#container-body{
+	display: block;
 	width: 100%;
 	height: auto;
-	margin-top: 10px;
+}
+
+#container-body .nombre{
+	margin-top: 5px;
+}
+
+
+#container-body .rubro{
+	margin-top: 2px;
 	margin-bottom: 5px;
-}
-
-#descripcion span{
-	display: block;
-}
-
-/*==================> Article */
-article{
-	display: block;
 }
 
 article h2{
-	margin-bottom: 5px;
 	margin-left: 10px;
 }
 
-#icons{
+hr{
+	margin-top: 6px;
+		margin-bottom: 6px;
+	border: 1px solid #272727;
+	box-shadow: 0px 0px 6px #272727;
+}
+
+#container-body .icons-imagen{
+	width: 70px;
+	height: 70px;
+}
+
+#container-body .box4-texto{
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+#box4-icons .txt{
+	margin-bottom: 6px;
+}
+
+#container-body .box4-program{
 	display: block;
-	width: 100%;
+	height: auto;
 }
 
-
-#icons .icons-imagen{
-	width: 45px;
-	height: 45px;
-}
-
-
-#icons .texto{
-	display: block;
-}
-
-#icons .txt{
-	margin-bottom: 10px;
-}
-
-/*==================> Skills */
-#skills h2{
-	margin-bottom: 5px;
-	margin-left: 10px;
-}
-
-
-#skills .programs{
-	display: block;
-}
-
-#skills .programs span{
-	padding-left: 5px;
-	padding-right: 5px;
+#container-body span{
+	display: inline-block;
+	margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
-	border-top: 3px ridge #ccc;
-	border-left: 3px ridge #ccc;
-	border-right: 2px solid #ccc;
-	border-bottom: 2px solid #ccc;
-}
-
-#skills .programs span:hover{
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 2px solid #ccc;
 	cursor: pointer;
-	border-top: 3px solid #ccc;
-	border-left: 3px solid #ccc;
-	border-right: 2px ridge #ccc;
-	border-bottom: 2px ridge #ccc;
 }
 
-/*==================> Redes */
-#card_body .redes{
-	display: block;
-	width: 400px;
-	height: 95px;
-	margin-top: 10px;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 100px;
-	border-bottom-left-radius: 71px;
-	border-bottom-right-radius: 18px;
-	border: 5px solid #e9e9e9; /*#e9e9e9*/
+#container-body span:hover{
+	border: 2px solid #272727;
+	box-shadow: 0px 0px 10px #343434;
+}
+
+/*------------------> Container - Footer -------->*/
+#container-footer{
 	background-color: rgba(39, 39, 39, 0.8);
+	border-top-left-radius: 20px;
+	border-top-right-radius: 60px;
+	border-bottom-left-radius: 73px;
+	border-bottom-right-radius: 21px;
+  border: 5px solid #e9e9e9;
+}
+
+#container-footer .box5{
+	margin: 5px;
 	text-align: center;
 }
 
-#icon{
+#box5-icon{
 	display: inline-block;
-  width: 70px;
-  height: 60px;
-  margin-top: 12px;
+  width: 60px;  
   margin-right: 6px;
 }
 
-#icon .intercambio1 {
+#box5-icon .intercambio1 {
   position: relative;
 }
 
-#icon .intercambio1 .intercambio2 {
+#box5-icon .intercambio1 .intercambio2 {
   position: absolute;  
   top: 0;  
   left: 0;
@@ -187,11 +169,11 @@ article h2{
   transition: 1s;
 }
 
-#icon .intercambio1:hover .intercambio2 {
+#box5-icon .intercambio1:hover .intercambio2 {
   opacity: 1;
 }
 
-#icon img{
+#box5-icon img{
     float: left;
     width: 100%;
     height: 100%;
