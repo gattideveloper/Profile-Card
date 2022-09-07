@@ -28,47 +28,34 @@
 }
 
 /*####################### FONTS #######################*/
-#descripcion span{
-    font-family: 'PetronaBold';
+
+/*------------------> Container - Body -------->*/
+#container-body{
+    text-align: center;
+}
+
+#container-body .nombre{
+    font-family: "PetronaBold";
     font-size: 25px;
-    text-align: center;
     letter-spacing: 2px;
 }
 
-/*==================> Article */
+
+#container-body .rubro{
+    font-family: "PetronaBoldItalic";
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
 article h2{
-    font-family: 'PetronaBoldItalic';
-    font-size: 22px;
-    text-align: left;
-    letter-spacing: 1px;
-}
-
-#icons{
-    text-align: center;
-}
-
-
-#icons .texto{
     font-family: 'PetronaLight';
-    font-size: 20px;
-    letter-spacing: 2px;
-}
-
-/*==================> Skills */
-#skills h2{
-    font-family: 'PetronaBoldItalic';
-    font-size: 22px;
+    font-size: 19px;
     text-align: left;
     letter-spacing: 1px;
 }
 
-
-#skills .programs{
-    text-align: center;
-}
-
-#skills .programs span{
+#container-body .box4-texto{
+    font-family: "PetronaLightItalic";
     font-size: 19px;
-    font-family: 'PetronaLightItalic';
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
