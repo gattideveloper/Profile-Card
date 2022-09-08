@@ -1,47 +1,22 @@
-/*Responsive para escritorio y tablet*/
+/*Responsive para Celulares*/
 @media (max-width: 600px){
 
-	body{
-		background-color: red;
-	}
-
-	/*#card_body{
-		width: 90% !important;
-	}*/
+	/*==================> Container */
 	#container{
 		width: 90%;
 	  	height: auto;
-	  /*margin: 0px auto;
-	  border: 1px solid rgba(225,225,226, 0.8);
-	  box-shadow: 0px 0px 10px #585656;
-	  margin-top: 40px;
-	  margin-bottom: 40px;
-		min-height: 600px;
-		border-top-left-radius: 47px;
-		border-top-right-radius: 150px;
-		border-bottom-left-radius: 70px;
-		border-bottom-right-radius: 24px;
-		border: 5px solid #272727;
-		background-image: url('../materiales/galeria/pattern.png');*/
 	}
 
-	/*==================> Card Header */
 
-
-	/*==================> Skills */
-
-
-	/*==================> Redes */
-	/*------------------> Container - Footer -------->*/
-#container-footer{
-	/*width: 100%;*/
+	/*==================> Container - Footer */
+	#container-footer{
 		height: 75px;
 		border: 5px solid #e9e9e9;
 		border-bottom-left-radius: 95px;
 		border-bottom-right-radius: 26px;
-}
+	}
 
-#box5-icon{
+	#box5-icon{
 		display: inline-block;
   		width: 50px;
   		height: 55px;
@@ -49,65 +24,12 @@
   		margin-right: 7px;
   		margin-left: 7px;
 	}
-/*
-#container-footer .box5{
-	margin: 5px;
-	text-align: center;
-}
 
-#box5-icon{
-	display: inline-block;
-  width: 60px;  
-  margin-right: 6px;
-}*/
-#box5-icon .images{
-		display: none; 
-	}
-/*#box5-icon .intercambio1 {
-  position: relative;
-}*/
-
-#box5-icon .intercambio1 .intercambio2 {
-  opacity: 1;
-}
-
-/*#box5-icon .intercambio1:hover .intercambio2 {
-  opacity: 1;
-}
-
-#box5-icon img{
-    float: left;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-}*/
-	/*#card_body .redes{
-		width: 341px;
-		height: 75px;
-		border: 5px solid #e9e9e9;
-		border-bottom-left-radius: 95px;
-		border-bottom-right-radius: 26px;
-
-	}
-
-	#icon .images{
+	#box5-icon .images{
 		display: none; 
 	}
 
-	#icon .intercambio1 .intercambio2 {
+	#box5-icon .intercambio1 .intercambio2 {
   		opacity: 1;
-	}*/
-
-
-	/********************************************************************/
-    /* ===================== Icon ===================== */
-	/********************************************************************/
-	/*#icon{
-		display: inline-block;
-  		width: 50px;
-  		height: 55px;
-  		margin-top: 13px;
-  		margin-right: 7px;
-  		margin-left: 7px;
-	}*/
+	}
 }
